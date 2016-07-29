@@ -1,6 +1,89 @@
-<html>
-    <head></head>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+    <title>Cool Restaurant Name</title>
+
+    <!-- Resources (CSS & JS files) -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    </head>
     <body>
-        <h1>Hi Mom! :D</h1>
+    	<header>
+	    	<figure class="intro-container">
+	    		<img id="header-img" src="./assets/img/header_image_2.jpeg" title="Awesome Image">
+	    		<h1 class="img-title">Kat's Coffee House</h1>
+	    		<h2 class="img-subtitle">Coffee made for developers!</h2>
+	    	</figure>
+    	</header>
+
+    	<div class="container">
+    		<div class="welcome-section">
+    			<h1>Welcome to Kat's Coffee House</h1>
+    			<hr class="section-divider">
+    			<p>We are here to help every developer have a productive day by providing them with a warm and delicious cup of coffee. Please see our menu, since we have a lot more options than coffee to choose from.</p>
+
+    			<div class="image-slider">
+    				<img  id="img-1" onclick="swapimage()" src="./assets/img/header_image_2.jpeg" >
+    				<img id="img-2" onclick="swapimage()" src="./assets/img/header_image.jpg" >
+    				<div class="slider-controls">
+    					<figure id="knob1" class="control-1" onclick="swapimage()"></figure>
+    					<figure id="knob2" class="control-2" onclick="swapimage()"></figure>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="menu-section">
+    			<center><h1>Our Menu</h1></center>
+
+    			<table class="menu-table">
+    				<tr>
+    					<th>Drinks</th>
+    					<th>Sandwhiches</th>
+    					<th>Smoothies</th>
+    					<th id = "last-table-header">Pastries</th>
+    				</tr>
+
+    				<tr>
+    					<td>Drink 1</td>
+    					<td>Bagel 1</td>
+    					<td>Smoothies 1</td>
+    					<td id = "last-table-header">Pastries 1</td>
+    				</tr>
+    				<tr>
+    					<td>Drink 1</td>
+    					<td>Bagel 1</td>
+    					<td>Smoothies 1</td>
+    					<td id = "last-table-header">Pastries 1</td>
+    				</tr>
+    				<tr>
+    					<td>Drink 1</td>
+    					<td>Bagel 1</td>
+    					<td>Smoothies 1</td>
+    					<td id = "last-table-header">Pastries 1</td>
+    				</tr>
+    				<tr>
+    					<td>Drink 1</td>
+    					<td>Bagel 1</td>
+    					<td>Smoothies 1</td>
+    					<td id = "last-table-header">Pastries 1</td>
+    				</tr>
+    				<tr>
+    					<td>Drink 1</td>
+    					<td>Bagel 1</td>
+    					<td>Smoothies 1</td>
+    					<td id = "last-table-header">Pastries 1</td>
+    				</tr>
+    				<tr>
+    					<td>Drink 1</td>
+    					<td>Bagel 1</td>
+    					<td>Smoothies 1</td>
+    					<td id = "last-table-header">Pastries 1</td>
+    				</tr>
+
+    			</table>
+    		</div>
+    	</div>
+    	<footer>
+    		<h1>Made by vaironl</h1>    		
+    	</footer>
+    	<script src="./assets/js/driver.js"></script>
     </body>
 </html>

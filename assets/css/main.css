@@ -1,0 +1,204 @@
+
+/* Imported Fonts*/
+
+@import 'https://fonts.googleapis.com/css?family=Aref+Ruqaa|Roboto:300';
+
+*
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+	background-color: #03A9F4;
+}
+
+#header-img
+{
+	max-width: 100%;
+	-webkit-filter: grayscale(50%) drop-shadow(9px 9px 20px black);;
+}
+
+.intro-container
+{
+	margin:0;
+	padding: 0;
+}
+
+
+.img-title
+{
+	font-size: 3em;
+	position: absolute;
+	top:30vh;
+	left:35vw;
+	color: white;
+
+	border: 10px solid black;
+	border-top: 4px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 10px;
+	border-radius: 40px;
+	font-family: 'Aref Ruqaa', serif;
+
+	background-color: rgba(3, 169, 244, 0.6);
+}
+
+.img-subtitle
+{
+
+	position:absolute;
+	top:50vh;
+	left:33vw;
+
+	font-size:2em;
+	font-weight: 300;
+	color: black;
+
+	background-color: rgba(255,255,255,.55);
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 20px;
+	padding: 4px;
+}
+
+
+
+
+.container
+{
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.container h1
+{
+	text-align: center;
+	font-size: 2em;
+	color: #B2EBF2;
+	margin-bottom: 2px;
+}
+
+.section-divider
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.container p
+{
+	text-align: left;
+	font-size: 1.5em;
+	color: white;
+}
+
+.menu-section h1
+{
+	color: rgb(230,230,230);
+	font-size: 3em;
+	display: inline-block;
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+	line-height: 1em;
+	margin-top:8vh;
+}
+
+.image-slider
+{
+	position:relative;
+	background-color: red;
+	width: 50vw;
+	height: 50vh;
+	margin:auto;
+	margin-bottom: 30px;
+}
+
+.image-slider img
+{
+	width: 50vw;
+	height: 50vh;
+	margin:auto;
+	margin-bottom: 30px;
+	border: 2px solid white;
+	border-radius: 4px;
+}
+
+.image-slider #img-2{
+
+	position:absolute;
+	top:0;
+}
+
+.slider-controls figure
+{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top:50vh;
+	border: 2px solid black;
+
+}
+
+.slider-controls .control-1
+{
+	left: 19vw;
+	background-color: white;
+	border-color:red;
+}
+
+.slider-controls .control-2
+{
+	left: 22vw;
+	background-color: white;
+}
+
+.menu-table
+{
+	background-color: rgba(79, 195, 247, 0.5);
+	border: 2px solid rgba(0,0,0,0.3);
+	width: 100%;
+	margin-top: 2%;
+	font-size: 1.6em;
+	border-radius: 10px;
+}
+
+
+.menu-table:hover
+{
+
+		background-color: rgba(79, 195, 247, 0.8);
+
+}
+
+th{
+	border-right: 2px solid rgba(0,0,0,0.3);
+}
+
+#last-table-header
+{
+	border-right: none;
+}
+
+td{
+	border-top: 2px solid rgba(0,0,0,0.3);
+	border-right: 2px solid rgba(0,0,0,0.3);
+	color: white;
+	font-size: 0.8em;
+
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+footer h1
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin:20px 0px;
+	font-size: 2.0em;
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: lighter;
+}
